@@ -22,8 +22,8 @@ void Constrain(int& val, char type)
     {
       if (val<1)
         val = 1;
-      else if (val>pow(10,5))
-        val = pow(10,5);
+      else if (val>3)
+        val = 3;
     }
     break;
     case 'x':
